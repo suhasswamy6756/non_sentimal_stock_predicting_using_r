@@ -38,3 +38,4 @@ dates_for_x_axis <- seq(from = as.Date("2021-01-01"), length.out = length(fc_non
 autoplot(fc_non, xlab = "Time Periods", ylab = "Forecast Values",x = dates_for_x_axis)+ 
   autolayer(ts(test, start=length(train)), series = "Test Data")
 #checkresiduals(fc_non)
+checkresiduals(fc_na)
