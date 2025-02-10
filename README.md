@@ -23,13 +23,29 @@ This project is my **first Machine Learning project** and also a **course projec
 Open R and install the required packages:
 ```r
 install.packages(c("quantmod", "ggplot2", "TTR", "forecast"))
-3️⃣ Analyze the Results
-View stock trends through plotted candlestick charts
-Examine the forecasted price movements
+```
+
+### 2️⃣ Run the Script
+```r
+source("stock_analysis.R")
+```
+### 3️⃣ Analyze the Results
+- View stock trends through plotted candlestick charts
+- Examine the forecasted price movements
+
+
 📌 Future Improvements
 ✅ Implement LSTM neural networks for more advanced forecasting
 ✅ Add comparative analysis with multiple stock indices
 ✅ Integrate real-time stock price updates
+
+## 📚 References  
+- Data sourced from [Yahoo Finance](https://finance.yahoo.com/) using the `quantmod` package.
+- Article [RPubs](https://www.rpubs.com/AurelliaChristie/time-series-and-stock-analysis)
+- ARIMA model concepts referenced from the book *Forecasting: Principles and Practice* by Rob J. Hyndman and George Athanasopoulos.  
+- R programming tutorials from [R-bloggers](https://www.r-bloggers.com/). 
+
+
 🏆 Author
 Suhas K S
 📧 [suhasswamy6756@gmail.com]
